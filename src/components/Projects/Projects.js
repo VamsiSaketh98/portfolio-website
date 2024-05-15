@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import editor from "../../Assets/Projects/codeEditor.png";
-import paytm from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import paytm from "../../Assets/Projects/Paytm.JPG"
+import Gemini from "../../Assets/Projects/Gemini.JPG"
+import youtube from "../../Assets/Projects/Youtube.JPG"
 
 function Projects() {
   return (
@@ -30,7 +30,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Gemini}
               isBlog={false}
               title="Gemini-clone"
               description="Powered by cutting-edge AI: This project leverages the capabilities of the Google Gemini API 1.5 to deliver innovative text generation features."
@@ -40,7 +40,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={youtube}
               isBlog={false}
               title="YouTube Clone"
               description="The video platform you already know and love, with a fresh twist. (Appeals to users comfortable with YouTube)"
