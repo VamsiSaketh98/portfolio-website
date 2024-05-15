@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import paytm from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -20,7 +20,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={paytm}
               isBlog={false}
               title="PayTM"
               description="Our innovative platform empowers you to take control of your finances.  Sign up, manage your  wallet balance, send money seamlessly, and access advanced features like transaction history and QR code integration (coming soon). We leverage cutting-edge technologies (MongoDB, Tailwind CSS, Axios) for a robust and user-friendly experience"
